@@ -17,7 +17,7 @@ services:
       context: ./hwg-portfolio/nginx
     container_name: server-portfolio
     ports:
-      - "80:80"
+      - "2121:80"
     volumes:
       - ./hwg-portfolio/nginx/default.conf:/etc/nginx/conf.d/default.conf
   api:
